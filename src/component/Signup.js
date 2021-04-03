@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import google from "../media/search.png";
 import facebook from "../media/facebook.png";
 import TextField from "@material-ui/core/TextField";
-import { makeStyles } from "@material-ui/core/styles";
 import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import Lottie from "lottie-web";
