@@ -20,7 +20,16 @@ function App() {
             <Login />
             <Footer />
           </Route>
-          <Route path="*">NOT FOUND</Route>
+          <Route path="*">
+            <div className="flex flex-col p-4 items-center space-y-4 ">
+              <div className="font-bold text-3xl">
+                ERROR 404 (Page not found)
+              </div>
+              <Link to="/" className="bg-blue-600 text-gray-200 font-bold p-4">
+                GO HOME
+              </Link>
+            </div>
+          </Route>
         </Switch>
       </Router>
     </div>
